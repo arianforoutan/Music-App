@@ -19,8 +19,6 @@ class _ApplicationState extends State<Application> {
 
   bool playing = false;
 
-  IconData onPressed = Icons.play_circle;
-
   final player = AudioPlayer();
 
   Duration? duration = Duration(seconds: 0);
